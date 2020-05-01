@@ -258,8 +258,8 @@ Attribution required
     color: #818181;
 }
 
-.font-footer {
-    font-size: 0.8em;
+.font-footer, .nav-item a {
+
     font-weight: 400;
     letter-spacing: 0.5px;
 }
@@ -281,20 +281,30 @@ Attribution required
     padding-top: 10px;
   
 }
+.box {
+    border: 1px solid #818181;
+    width: 90px;
+    height: 100%;
+    padding: 0 0 2px 7px;
+}
 .option  {
-    font-size: 0.9em; 
+    font-size: 0.7em; 
     background-color: transparent; 
     color: #fff;
-    letter-spacing: 2px;
-    padding: 2px 5px;
-    border: 1px solid #818181;
-
+    letter-spacing: 1.5px;
+    border: none;
 }
-.option::after {
-    content: 'f0d7';
-    color: #fff;
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+.option:focus {
+   
+        outline: none;
     
 }
-
-  
   
