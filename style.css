@@ -52,7 +52,7 @@ body {
 
 .item {
     color: white;
-    border: 1px solid #fff;
+    border: 1px solid #818181;;
     padding: 3px;;
 }
 .item:active {
@@ -287,6 +287,7 @@ Attribution required
     color: #fff;
     letter-spacing: 2px;
     padding: 2px 5px;
+    border: 1px solid #818181;
 
 }
 .option::after {
