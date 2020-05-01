@@ -309,3 +309,7 @@ button:focus {
     outline: none;
 }
 
+.social { 
+    margin-right: 10px;
+    font-size: 30px;
+}
