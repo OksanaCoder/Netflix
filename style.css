@@ -281,3 +281,19 @@ Attribution required
     padding-top: 10px;
   
 }
+.option  {
+    font-size: 0.9em; 
+    background-color: transparent; 
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 2px 5px;
+
+}
+.option::after {
+    content: 'f0d7';
+    color: #fff;
+    
+}
+
+  
+  
